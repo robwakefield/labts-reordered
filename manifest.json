@@ -1,0 +1,16 @@
+{
+
+  "manifest_version": 2,
+  "name": "labTS-reordered",
+  "version": "1.0",
+
+  "description": "Re-orders projects on labTS.",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.doc.ic.ac.uk/labts"],
+      "js": ["reorder.js"]
+    }
+  ]
+
+}
