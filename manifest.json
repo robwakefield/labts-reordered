@@ -6,6 +6,12 @@
 
   "description": "Re-orders projects on labTS.",
 
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "extension@robwakefield.github.com"
+    }
+  },
+
   "content_scripts": [
     {
       "matches": ["*://*.doc.ic.ac.uk/labts"],
